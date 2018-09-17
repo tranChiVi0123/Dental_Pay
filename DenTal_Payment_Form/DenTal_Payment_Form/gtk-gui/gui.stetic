@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="../bin/Debug/DenTal_Payment_Form.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="512 504">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">MainWindow</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed1">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.Label" id="labelTitle">
+            <property name="MemberName" />
+            <property name="HeightRequest">44</property>
+            <property name="Xpad">30</property>
+            <property name="Xalign">0</property>
+            <property name="LabelProp" translatable="yes">Dental Payment Form</property>
+            <property name="UseMarkup">True</property>
+            <property name="Wrap">True</property>
+          </widget>
+          <packing>
+            <property name="X">148</property>
+            <property name="Y">14</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="nameLabel">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Ten Khach Hang:</property>
+          </widget>
+          <packing>
+            <property name="X">15</property>
+            <property name="Y">103</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Entry" id="nameEntry">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="IsEditable">True</property>
+            <property name="InvisibleChar">•</property>
+          </widget>
+          <packing>
+            <property name="X">131</property>
+            <property name="Y">98</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.CheckButton" id="checkbuttonCaoVoi">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Label" translatable="yes">Cao Voi :</property>
+            <property name="DrawIndicator">True</property>
+            <property name="HasLabel">True</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">23</property>
+            <property name="Y">143</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.CheckButton" id="checkbuttonTayTrang">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Label" translatable="yes">Tay Trang :</property>
+            <property name="DrawIndicator">True</property>
+            <property name="HasLabel">True</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">25</property>
+            <property name="Y">193</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.CheckButton" id="checkbuttonChupHinhRang">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Label" translatable="yes">Chup Hinh Rang :</property>
+            <property name="DrawIndicator">True</property>
+            <property name="HasLabel">True</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">22</property>
+            <property name="Y">251</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="labelTramRang">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Tram Rang</property>
+          </widget>
+          <packing>
+            <property name="X">32</property>
+            <property name="Y">303</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.ComboBox" id="comboboxTramRang">
+            <property name="MemberName" />
+            <property name="IsTextCombo">True</property>
+            <property name="Items" translatable="yes">0
+1
+2
+3
+4
+5
+</property>
+            <property name="Active">5</property>
+          </widget>
+          <packing>
+            <property name="X">123</property>
+            <property name="Y">294</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="labelCaoVoi">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">100 $</property>
+          </widget>
+          <packing>
+            <property name="X">322</property>
+            <property name="Y">140</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="labelTayTrang">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">1200 $</property>
+          </widget>
+          <packing>
+            <property name="X">317</property>
+            <property name="Y">185</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="labelChupHinhRang">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">200 $</property>
+          </widget>
+          <packing>
+            <property name="X">323</property>
+            <property name="Y">234</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="labelTramRang1">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">x 50 $</property>
+          </widget>
+          <packing>
+            <property name="X">327</property>
+            <property name="Y">295</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="buttonThoat">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Thoat </property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnButtonThoatClicked" />
+          </widget>
+          <packing>
+            <property name="X">59</property>
+            <property name="Y">426</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="labelTong">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Total:</property>
+          </widget>
+          <packing>
+            <property name="X">54</property>
+            <property name="Y">361</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Entry" id="entryTong">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="IsEditable">True</property>
+            <property name="InvisibleChar">•</property>
+          </widget>
+          <packing>
+            <property name="X">302</property>
+            <property name="Y">344</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="buttonTinhTien">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Tinh Tien</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnButtonTinhTienClicked" />
+          </widget>
+          <packing>
+            <property name="X">312</property>
+            <property name="Y">415</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+  <widget class="Gtk.Window" id="DenTal_Payment_Form.Properties.Window" design-size="400 300">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">Window</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <child>
+      <placeholder />
+    </child>
+  </widget>
+</stetic-interface>

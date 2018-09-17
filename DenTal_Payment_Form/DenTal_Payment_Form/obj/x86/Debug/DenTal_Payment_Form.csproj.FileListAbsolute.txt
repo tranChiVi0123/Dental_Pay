@@ -1,0 +1,6 @@
+/home/idiots0123/Projects/DenTal_Payment_Form/DenTal_Payment_Form/bin/Debug/DenTal_Payment_Form.exe
+/home/idiots0123/Projects/DenTal_Payment_Form/DenTal_Payment_Form/bin/Debug/DenTal_Payment_Form.pdb
+/home/idiots0123/Projects/DenTal_Payment_Form/DenTal_Payment_Form/obj/x86/Debug/DenTal_Payment_Form.csprojResolveAssemblyReference.cache
+/home/idiots0123/Projects/DenTal_Payment_Form/DenTal_Payment_Form/obj/x86/Debug/DenTal_Payment_Form.csproj.CoreCompileInputs.cache
+/home/idiots0123/Projects/DenTal_Payment_Form/DenTal_Payment_Form/obj/x86/Debug/DenTal_Payment_Form.exe
+/home/idiots0123/Projects/DenTal_Payment_Form/DenTal_Payment_Form/obj/x86/Debug/DenTal_Payment_Form.pdb
